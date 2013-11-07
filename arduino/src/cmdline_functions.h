@@ -5,6 +5,7 @@
 #include <ashcon.h>
 #include <pololu_controller.h>
 #include <RadioControl.h>
+#include <motorWrappers.h>
 
 // Global instances declared in the main sketch that need to be used by the
 // command line functions
