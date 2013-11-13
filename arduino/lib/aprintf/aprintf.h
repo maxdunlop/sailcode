@@ -2,6 +2,7 @@
 #define ARDUINO_PRINTF_H 
 #include <Arduino.h>
 #include <stdarg.h>
+#include <avr/pgmspace.h> // Defines prog_uint8_t
 
 #ifdef __AVR__
 #define P(name)   static const unsigned char name[] PROGMEM
