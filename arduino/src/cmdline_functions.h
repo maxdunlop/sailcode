@@ -20,4 +20,6 @@ int urctest(char* argv[]);
 int urcpollall(char* argv[]);
 int umon(char* argv[]);
 int uselfcheck(char* argv[]);
+int umotorGo(char* argv[]);
+int ustartRCControl(char* argv[]);
 #endif

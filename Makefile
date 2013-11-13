@@ -11,8 +11,9 @@ AVR_LIB_DIR=~/local/avr/avr/include/
 LIB_DIR=arduino/lib/
 
 all: 
-	$(CC) $(CFLAGS) arduino/src/arduino.cpp -o sailcode -I $(LIB_DIR)/ashcon \
-	-I $(LIB_DIR)/aprintf -I $(LIB_DIR)/pololu_controller -I $(LIB_DIR)/RC \
+	$(CC) $(CFLAGS) arduino/src/arduino.cpp -o sailcode \
+	-I $(LIB_DIR)/ashcon -I $(LIB_DIR)/aprintf \
+	-I $(LIB_DIR)/pololu_controller -I $(LIB_DIR)/RC \
 	-I $(LIB_DIR)/motorWrappers -I $(LIB_DIR)/PololuServo -I $(LIB_DIR)/MemoryFree \
 	-I $(AVR_LIB_DIR) -I $(ARDUINO_DOT_H_DIR) -I $(ARDUINO_PINS_DIR) \
 	-D __PROG_TYPES_COMPAT__

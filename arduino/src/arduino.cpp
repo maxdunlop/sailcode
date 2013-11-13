@@ -33,6 +33,7 @@ void setup() {
  *
  * All functions must be as non-blocking as possible
  */
-void loop() {
+int main() {
     Console->command_prompt();
+	return 0;
 }
